@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+avatar-env/
+.venv/
+venv/
+
+# Local model files and external repositories
+models/
+Wav2Lip/
+*.pth
+*.onnx
+*.onnx.json
+
+# Personal avatar and generated media
+foto/orijinal.jpg
+foto/islenmis.png
+sesler/*.wav
+videolar/*.mp4
+
+# Caches and logs
+.cache/
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
